@@ -128,9 +128,11 @@ In order to successfully complete this exercise, you must find and complete the 
   - Test that the user entered a string and log a usage statements to let the user know that a string is expected and that a string with spaces needs to be quotes
   - Write an expression to test if the input string contains hello and find the position in which is being within the input using the `indexOf` method
   - Log if hello is found and at what position, of it the input string doesn't contain it log that
-3. add code to replace TODO's in 3-types
-  - 
-
+3. add code to replace TODO's in 3-types/index.js
+  - Use the `typeof` operator to display what JavaScript sees as the types of constant value provide
+  - Translate text to code to add strings and numbers to see how string concatenation using the `+` operator is affected by order
+  - Log the values of strings comparing string concatenation with `+` to concatenation with `+=`.  Notice that `+=` changes the value of the left hand operand.
+  - Add ternary functions using the constant value to see how JavaScript creates "falsy" values out of strings and other types.  This can be useful in creating logical expressions.  Ternary functions will look something like this `CONSTANT ? true : false` 
 
 **be sure to test all your apps**
 

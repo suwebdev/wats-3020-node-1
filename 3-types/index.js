@@ -10,7 +10,8 @@ const NULL = null
 const NAN = NaN
 
 console.log("---- Use typeof operator ----")
-//TODO write typof statements for all constants values following the final comma in the log statement
+// TODO write typof statements for all constants values following 
+// the final comma in the log statement
 console.log("STRING_VALUE ",STRING_VALUE, "->",)
 console.log("EMPTY_TRING_VALUE ",EMPTY_STRING_VALUE, "->",)
 console.log("INT_VALUE ",INT_VALUE, "->",)
@@ -55,14 +56,16 @@ console.log()
 
 // test truthy/falsy using == for string, empty string, null and undefined
 // use ternary operator to determine if the value would be treated as true or false
+
+//TODO add the ternary operation to see how JS converts non boolean types into truthy/falsy
 console.log("---- Test truthy/falsy using ternary operator ----")
-console.log("string -> ", STRING_VALUE ? true : false)
-console.log("int ->", INT_VALUE ? true : false)
-console.log("empty string -> ", EMPTY_STRING_VALUE ? true : false)
-console.log("undefined ->", UNDEFINED ? true : false)
-console.log("null ->", NULL ? true : false)
-console.log("0 -> ", INT_ZERO ? true : false)
-console.log("NaN ->  ", NAN ? true : false)
+console.log("string -> ", )
+console.log("int ->", )
+console.log("empty string -> ", )
+console.log("undefined ->", )
+console.log("null ->", )
+console.log("0 -> ", )
+console.log("NaN ->  ", )
 
 
 
