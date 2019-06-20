@@ -132,12 +132,21 @@ In order to successfully complete this exercise, you must find and complete the 
   - Use the `typeof` operator to display what JavaScript sees as the types of constant value provide
   - Translate text to code to add strings and numbers to see how string concatenation using the `+` operator is affected by order
   - Log the values of strings comparing string concatenation with `+` to concatenation with `+=`.  Notice that `+=` changes the value of the left hand operand.
-  - Add ternary functions using the constant value to see how JavaScript creates "falsy" values out of strings and other types.  This can be useful in creating logical expressions.  Ternary functions will look something like this `CONSTANT ? true : false` 
+  - Add ternary functions using the constant value to see how JavaScript creates "falsy" values out of strings and other types.  This can be useful in creating logical expressions.  Ternary functions will look something like this `CONSTANT ? true : false`
+4. add code to replace TODO's in 4-hours-to-minutes/index.js
+  - Check input using isNaN and Number.isInteger to ensure user enter a number
+  - Provide a usage statement in case user didn't enter a number 
+  - Calculate number of hours using division and .toFixed to round to 0 decimals
+  - Calculate number of minutes remaining using modulo (remainder)
+  - Use ternary operator to determine singular or plural hours
+  - Use a ternary to determine singular or plural minutes
 
 **be sure to test all your apps**
 
 ## Stretch Goals
 
-If you want to push this project further, you can try some of the following:  
-
+1. Create an app to determine if a number is divisible by 3 or 7.
+2. Research the string methods and write an app that uses the search or substr method to find a string within a string.
+3. Research the string methods and write an app the determines how long a string is.
+4. Research the number methods and write an app the converts a string containing a integer into a numeric integer.  This is a useful bit of code, since we often pull strings off the web when accessing data and need to convert it into numbers in our code.
 
