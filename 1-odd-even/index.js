@@ -9,18 +9,15 @@ let getargs = require("../modules/getargs/index.js")
 let input = getargs.getIntegerArg()
 // test that input is a number
 
-// TODO check input using isNaN and NOT Number.isInteger 
-if () {
+ 
+if (isNaN(input) || !Number.isInteger(input)) {
   // TODO provide a usage statement when user forgets to enter a number
-  console.log()
+  console.log("usage: node 1-odd-even/index.js <integer>")
 } else {
-  // TODO test if integer is divisible by 2
-  if () {
-    //TODO use a template literal to report that the number is even
-    console.log()
+  if (input % 2 === 0) {
+    console.log(`${input} is even`)
   } else {
-    //TODO use a template literal to report that the number is odd
-    console.log()
+    console.log(`${input} is odd`)
   }
 }
 // exit the program
