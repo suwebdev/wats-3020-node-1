@@ -25,25 +25,25 @@ console.log("NAN",NAN, "is of type ", typeof NAN)
 console.log("---- Test add operator with strings ----")
 //TODO implement the addition of types according the quoted portion of the log statement
 // log string + string
-console.log ("string + string ",)
+console.log ("string + string ", STRING_VALUE + STRING_VALUE)
 // log add string to int
-console.log("string + int ",)
+console.log("string + int ", STRING_VALUE + INT_VALUE)
 // log int + string
-console.log("int + string ",  )
+console.log("int + string ", INT_VALUE + STRING_VALUE )
 // log int + int + string
-console.log("int + int + string ", )
+console.log("int + int + string ", INT_VALUE + INT_VALUE + STRING_VALUE)
 // log add string to float
-console.log("string + float ", )
+console.log("string + float ", STRING_VALUE + FLOAT_VALUE)
 // log add string to float with 2 decimal places
-console.log("string + float with 2 decimal places ",)
+console.log("string + float with 2 decimal places ", STRING_VALUE + FLOAT_VALUE.toFixed(2))
 // log add string to true
-console.log("string + true ",)
+console.log("string + true ", STRING_VALUE + BOOL_TRUE)
 // log add string to false
-console.log("string + false ", )
+console.log("string + false ", STRING_VALUE + BOOL_FALSE)
 // log add string to undefined
-console.log("string + undefined ",)
+console.log("string + undefined ", STRING_VALUE + UNDEFINED)
 // log add string to null
-console.log("string + null ",)
+console.log("string + null ",STRING_VALUE + NULL)
 
 console.log("---- String concatenation ----")
 let s1 = STRING_VALUE
