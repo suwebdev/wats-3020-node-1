@@ -10,17 +10,17 @@ const NULL = null
 const NAN = NaN
 
 console.log("---- Use typeof operator ----")
-// TODO write typof statements for all constants values following 
+// TODO write typeof statements for all constants values following 
 // the final comma in the log statement
-console.log("STRING_VALUE ",STRING_VALUE, "->",)
-console.log("EMPTY_TRING_VALUE ",EMPTY_STRING_VALUE, "->",)
-console.log("INT_VALUE ",INT_VALUE, "->",)
-console.log("INT_VALUE ",INT_ZERO, "->",)
-console.log("INT_VALUE ",FLOAT_VALUE, "->",)
-console.log("INT_VALUE ",BOOL_TRUE, "->",)
-console.log("INT_VALUE ",UNDEFINED, "->",)
-console.log("INT_VALUE ",NULL, "->",)
-console.log("INT_VALUE ",NAN, "->",)
+console.log("STRING_VALUE ",STRING_VALUE, "is of type ",)
+console.log("EMPTY_STRING_VALUE ",EMPTY_STRING_VALUE, "is of type ",)
+console.log("INT_VALUE ",INT_VALUE, "is of type ",)
+console.log("INT_VALUE ",INT_ZERO, "is of type ",)
+console.log("INT_VALUE ",FLOAT_VALUE, "is of type ",)
+console.log("INT_VALUE ",BOOL_TRUE, "is of type ",)
+console.log("INT_VALUE ",UNDEFINED, "is of type ",)
+console.log("INT_VALUE ",NULL, "is of type ",)
+console.log("INT_VALUE ",NAN, "is of type ",)
 
 
 console.log("---- Test add operator with strings ----")
@@ -59,13 +59,13 @@ console.log()
 
 //TODO add the ternary operation to see how JS converts non boolean types into truthy/falsy
 console.log("---- Test truthy/falsy using ternary operator ----")
-console.log("string -> ", )
-console.log("int ->", )
-console.log("empty string -> ", )
-console.log("undefined ->", )
-console.log("null ->", )
-console.log("0 -> ", )
-console.log("NaN ->  ", )
+console.log("string is  ", )
+console.log("int is ", )
+console.log("empty string is  ", )
+console.log("undefined is ", )
+console.log("null is ", )
+console.log("0 is  ", )
+console.log("NaN is   ", )
 
 
 
