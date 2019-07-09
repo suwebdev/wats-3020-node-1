@@ -25,14 +25,27 @@ JavaScript is a [loosely typed language](https://en.wikipedia.org/wiki/Strong_an
 let n = 3
 typeof n  //returns "number"
 ```
+There are 7 types in JavaScript
+* **number** which includes **integer** (no decimal places) and **floating-point** (decimal places)
+* **string** which are used for text and you can picture of strings as a string of characters
+* **boolean** which hold values of **true** or **false** 
+* **null** which can hold a single value of **null** 
+* **undefined** which holds a single value of **undefined**
+
+Null and Undefined are differentiated in the fact that **null** is a value that you must assign to a variable, whereas **undefined** is the default value of a variable for which you don't assign anything.
+
+## Object vs Primitive Types
+The types associated with numbers, strings, booleans, null, undefined types as discussed above are referred to as **primitive**.  We'll be learning about Object in a future module.  Objects can encapsulate (contain) primitive values.  The main difference between primitive and object types from a programming point of view is that primitives are **immutable**.  For example if if I have a string decalred as `let s = "hello"`, I can't change the "e" to an "a" in "hello".  I can create a new string `s = "hallo"`, but I can't do something like `s[0] = "a"`.  That is I can't go into the contents of the string and change it.  
+Objects are mutable.  If I have an object `let obj = {a:1}` I can change the value of a in the object like this: `obj.a = 2`.  
+In JavaScript there are "wrapper" objects for the primitive types: String, Number, Boolean which provide some functionality. Notice that the object wrapper names are capitalized.  This is a common convention to refer to primitive types with lower case names and object types with upper case names. In this module, we're working with primitives to understand the types of data they can hold, and we'll look at some methods provided by some of the wrapper object types. 
 
 ## String methods
-We're not writing functions and objects in this assignment, but we're using them in the form of object methods. There are many [string functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String).  In this assignment you'll use the `indexOf` function to determine if a string contains a substring. This function is called as follows:
+We're not writing functions and objects in this assignment, but we're using them in the form of type  **methods**.  The term **method** is sometimes used interchangeably with **function**.  There are many [string methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String).  In this assignment you'll use the `indexOf` function to determine if a string contains a substring. This function is called as follows:
 ```JavaScript
 let s = "string"
 s.indexOf("s")
 ```
-The call to indexOf above would return the value `0` because the letter `s` is found in the 0th position.  Counting starts at 0.  
+The call to `indexOf` above would return the value `0` because the letter `s` is found in the 0th position.  Counting starts at 0.  
 
 ```JavaScript
 let s = "string"
@@ -41,7 +54,7 @@ s.indexOf("Q")
 The call to indexOf above would return the value `-1` because that it what the function returns when the value can't be found.  That means a good logical test for the existence of a character in a string is `s.indexOf("Q") > -1`.
 
 ## Number methods
-Like strings, numbers have [methods](https://www.w3schools.com/js/js_number_methods.asp). The `toFixed()` method helps us to provide decimal places to a number with decimals.  When you use division `\`, even on integers, you can get decimals places.  Notice, in the example below that toFixed returns a string and will apply rounding rules.
+Like strings, numbers have [number methods](https://www.w3schools.com/js/js_number_methods.asp). The `toFixed()` method helps us to provide decimal places to a number with decimals.  When you use division `\`, even on integers, you can get decimals places.  Notice, in the example below that toFixed returns a string and will apply rounding rules.
 ```JavaScript
 let n = 1
 n/6 //returns 0.16666666666666666
