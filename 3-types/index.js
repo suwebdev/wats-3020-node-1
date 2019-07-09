@@ -12,15 +12,15 @@ const NAN = NaN
 console.log("---- Use typeof operator ----")
 // TODO write typeof statements for all constants values following 
 // the final comma in the log statement
-console.log("STRING_VALUE ",STRING_VALUE, "is of type ",)
-console.log("EMPTY_STRING_VALUE ",EMPTY_STRING_VALUE, "is of type ",)
-console.log("INT_VALUE ",INT_VALUE, "is of type ",)
-console.log("INT_ZERO ",INT_ZERO, "is of type ",)
-console.log("FLOAT_VALUE ",FLOAT_VALUE, "is of type ",)
-console.log("BOOL_TRUE ",BOOL_TRUE, "is of type ",)
-console.log("UNDEFINED ",UNDEFINED, "is of type ",)
-console.log("NULL ",NULL, "is of type ",)
-console.log("NAN ",NAN, "is of type ",)
+console.log("STRING_VALUE",STRING_VALUE, "is of type",)
+console.log("EMPTY_STRING_VALUE",EMPTY_STRING_VALUE, "is of type",)
+console.log("INT_VALUE",INT_VALUE, "is of type",)
+console.log("INT_ZERO",INT_ZERO, "is of type",)
+console.log("FLOAT_VALUE",FLOAT_VALUE, "is of type",)
+console.log("BOOL_TRUE",BOOL_TRUE, "is of type",)
+console.log("UNDEFINED",UNDEFINED, "is of type",)
+console.log("NULL",NULL, "is of type",)
+console.log("NAN",NAN, "is of type",)
 
 
 console.log("---- Test add operator with strings ----")
