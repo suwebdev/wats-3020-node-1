@@ -10,15 +10,13 @@ let input = getargs.getIntegerArg()
 
 // test that input is a number
 
-// TODO check input using isNaN and NOT Number.isInteger 
-if () {
-  // TODO provide a usage statement when user forgets to enter a number
-  console.log()
+if (isNaN(input) || !Number.isInteger(input)) {
+  console.log("usage: node 4-hours-to-minutes/index.js <integer>")
 } else {
-  let hours = // TODO calc using division and .toFixed to round to 0 decimals
-  let minutes = // TODO calc using modulo (remainder)
-  let hrs = // TODO use a ternary to determine singular or plural hours
-  let mins = // TODO use a ternary to determine singular or plural minutes
+  let hours = (input/60).toFixed(0) // calc using division and .toFixed to round to 0 decimals
+  let minutes = input % 60  // calc using modulo (remainder)
+  let hrs = hours > 1 ? "hours" : "hour" // use a ternary to determine singular or plural hours
+  let mins = minutes > 1 ? "minutes": "minute" //use a ternary to determine singular or plural minutes
   console.log(`${input} minutes is ${hours} ${hrs} ${minutes} ${mins} `)
 }
 
