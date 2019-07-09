@@ -1,13 +1,13 @@
 # WATS 3020 Node 1
 * Variables and Variable Declaration
-* Data Types: Number, String, Boolean, Primitive values vs Objects
+* Data Types: number, string, boolean, Primitive types vs Object types
 * String functions: indexOf
 * Operators
 * Logic and Logical Expressions, If Then Else
-* Template Literal and console.log
+* Template Literals and console.log
 
 ## I/O for this code  
-Use the local module **getargs** to pull a single argument out of the command line for input.  Use console.log(<string>) for output.
+Use the local module **getargs** to pull a single argument out of the command line for input.  Use `console.log(<string>)` for output.
 
 ## Variable Declaration
 JavaScript has 4 ways to declare a variables: `var`, `const`, `let`, just use the name:
