@@ -128,7 +128,7 @@ this project:
 * [ternary operator](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator)
 * [falsy](https://developer.mozilla.org/en-US/docs/Glossary/Falsy)
 * [Template Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
-* [set of operators](https://www.w3schools.com/jsref/jsref_operators.asp)
+* [JavaScript operators](https://www.w3schools.com/jsref/jsref_operators.asp)
 
 ## Tutorials
 Fork this repository.  
