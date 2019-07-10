@@ -219,11 +219,9 @@ Add code to replace TODO's in 4-hours-to-minutes/index.js
 
 **be sure to test all your apps**
 ## Turn in assignment
-Push your code to the forked repository in your account and [**create a pull request**](https://help.github.com/en/articles/creating-a-pull-request-from-a-fork).  This will make it available for instructor code review.  
+Push your code to the forked repository in your account.  
 
-Turn in 1 URL on Canvas which should be of the format:
-* https://github.com/{account name}/{repo name}
-
+Turn in 1 URL on Canvas which should be of the format: https://github.com/{account name}/{repo name}
 
 
 ## Stretch Goals
