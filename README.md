@@ -130,6 +130,7 @@ this project:
 * [Template Literals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Template_literals)
 * [JavaScript operators](https://www.w3schools.com/jsref/jsref_operators.asp)
 
+* * *
 ## Tutorials
 Fork this repository.  
 In order to successfully complete this assignment, you must find and complete the **TODOs** in the code:
