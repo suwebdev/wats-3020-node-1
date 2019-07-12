@@ -135,7 +135,7 @@ Fork this repository.
 In order to successfully complete this assignment, you must find and complete the **TODOs** in the code:
 
 **1-experiments**  
-Add code to replace TODO's in 3-types/index.js  
+Add code to work on the TODO's in 1-experiments/index.js  
   - Use the `typeof` operator to display what JavaScript sees as the types of constant value provide
   ```JavaScript
   typeof <value to test>
