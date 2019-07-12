@@ -174,11 +174,11 @@ Add code to replace the TODO's in 1-odd-even/index.js
   console.log(`${input} is odd`)
   ``` 
 
-**3-string-contains**    
-Add code to replace the TODO's in 2-string-contains/index.js  
+**3-string-contains-hello**    
+Add code to replace the TODO's in 2-string-contains-hello/index.js  
   - Test that the user entered a string and log a usage statements to let the user know that a string is expected and that a string with spaces needs to be quotes
   ```JavaScript
-  console.log("usage: node 2-string-contains/index.js <string>")
+  console.log("usage: node 2-string-contains-hello/index.js <string>")
   console.log("if string contains a space, put it in quotes")
   ```
   - Write an expression to test if the input string contains hello and find the position in which is being within the input using the `indexOf` method
