@@ -2,7 +2,7 @@ const STRING_VALUE = "test_string"
 const EMPTY_STRING_VALUE = ""
 const INT_VALUE = 100
 const INT_ZERO = 0
-const FLOAT_VALUE = 100.00
+const FLOAT_VALUE = 100.01
 const BOOL_TRUE = true
 const BOOL_FALSE = false
 const UNDEFINED = undefined
@@ -36,8 +36,6 @@ console.log("int + string ", )
 console.log("int + int + string ", )
 // log add string to float
 console.log("string + float ",)
-// log add string to float with 2 decimal places
-console.log("string + float with 2 decimal places ",)
 // log add string to true
 console.log("string + true ", )
 // log add string to false
@@ -47,12 +45,12 @@ console.log("string + undefined ", )
 // log add string to null
 console.log("string + null ", )
 
-console.log("---- String concatenation ----")
+console.log("---- assignment operator ----")
 let s1 = STRING_VALUE
 let s2 = STRING_VALUE
 let s3 = s1 + s2
 s1 += s2
-//TODO log s1 = value of s1, s2 = value of s2, s3 = value of s3 using template literal
+//TODO console.log the values of s1, s2, s3 after each statement
 console.log()
 
 // test truthy/falsy using == for string, empty string, null and undefined
@@ -67,8 +65,5 @@ console.log("undefined is ", )
 console.log("null is ", )
 console.log("0 is  ", )
 console.log("NaN is   ", )
-
-
-
 
 process.exit()

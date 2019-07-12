@@ -145,18 +145,18 @@ Add code to work on the TODO's in 1-experiments/index.js
   ```JavaScript
   //use the + sign with different type values
   ```
-  - Log the values of strings comparing string concatenation with `+` to concatenation with `+=`.  Notice that `+=` changes the value of the left hand operand.
+  - Log the values of strings comparing stand alone operator with assignment operator ( `+` vs `+=`).  Notice that `+=` changes the value of the left hand operand.
   ```JavaScript
   //console.log the values of expressions and results
   ```
-  - Add ternary functions using the constant value to see how JavaScript creates "truthy" and "falsy" values out of strings and other types.  This can be useful in creating logical expressions.  Ternary functions will look something like this `CONSTANT ? true : false`
+  - Add ternary functions using the constant value to see how JavaScript creates "truthy" and "falsy" values out of strings and other types.  This can be useful in creating logical expressions.  Ternary functions will look something like this :
   ```JavaScript
-  <value> ? true : false
+  <CONSTANT> ? true : false
   ```  
 
 **2-odd-even**
 Add code to replace the TODO's in 1-odd-even/index.js  
-  - Test that the user entered an integer: `isNan(input)` will test that the input is a number and `Number.isInteger(input)` will test the number is an integer.and that the number is an integer.  Using `||`.  Set up logical expressions and if/else so that you can provide a **usage** statement to tell the user how to run the program using node if a number is not found.
+  - Test that the user entered an integer: `isNan(input)` will test that the input is a number and `Number.isInteger(input)` will test the number is an integer.and that the number is an integer.  Using `||`.  Set up logical expressions and if/else so that you can provide a **usage** statement to tell the user how to run the program using node if a number is not found. Notice we rely on "falsy" in the following test:
   ```JavaScript
     isNaN(input) || !Number.isInteger(input)
 
