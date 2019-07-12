@@ -134,7 +134,26 @@ this project:
 Fork this repository.  
 In order to successfully complete this assignment, you must find and complete the **TODOs** in the code:
 
-**1-odd-even**
+**1-experiments**  
+Add code to replace TODO's in 3-types/index.js  
+  - Use the `typeof` operator to display what JavaScript sees as the types of constant value provide
+  ```JavaScript
+  typeof <value to test>
+  ```
+  - Translate text to code to add strings and numbers to see how string concatenation using the `+` operator is affected by order
+  ```JavaScript
+  //use the + sign with different type values
+  ```
+  - Log the values of strings comparing string concatenation with `+` to concatenation with `+=`.  Notice that `+=` changes the value of the left hand operand.
+  ```JavaScript
+  //console.log the values of expressions and results
+  ```
+  - Add ternary functions using the constant value to see how JavaScript creates "truthy" and "falsy" values out of strings and other types.  This can be useful in creating logical expressions.  Ternary functions will look something like this `CONSTANT ? true : false`
+  ```JavaScript
+  <value> ? true : false
+  ```  
+
+**2-odd-even**
 Add code to replace the TODO's in 1-odd-even/index.js  
   - Test that the user entered an integer: `isNan(input)` will test that the input is a number and `Number.isInteger(input)` will test the number is an integer.and that the number is an integer.  Using `||`.  Set up logical expressions and if/else so that you can provide a **usage** statement to tell the user how to run the program using node if a number is not found.
   ```JavaScript
@@ -154,7 +173,7 @@ Add code to replace the TODO's in 1-odd-even/index.js
   console.log(`${input} is odd`)
   ``` 
 
-**2-string-contains**    
+**3-string-contains**    
 Add code to replace the TODO's in 2-string-contains/index.js  
   - Test that the user entered a string and log a usage statements to let the user know that a string is expected and that a string with spaces needs to be quotes
   ```JavaScript
@@ -172,24 +191,7 @@ Add code to replace the TODO's in 2-string-contains/index.js
   `input does not contain the string "hello"`  
   ```
 
-**3-types**  
-Add code to replace TODO's in 3-types/index.js  
-  - Use the `typeof` operator to display what JavaScript sees as the types of constant value provide
-  ```JavaScript
-  typeof <value to test>
-  ```
-  - Translate text to code to add strings and numbers to see how string concatenation using the `+` operator is affected by order
-  ```JavaScript
-  //use the + sign with different type values
-  ```
-  - Log the values of strings comparing string concatenation with `+` to concatenation with `+=`.  Notice that `+=` changes the value of the left hand operand.
-  ```JavaScript
-  //console.log the values of expressions and results
-  ```
-  - Add ternary functions using the constant value to see how JavaScript creates "truthy" and "falsy" values out of strings and other types.  This can be useful in creating logical expressions.  Ternary functions will look something like this `CONSTANT ? true : false`
-  ```JavaScript
-  <value> ? true : false
-  ```  
+
 **4-hours-to-minutes**  
 Add code to replace TODO's in 4-hours-to-minutes/index.js
   - Check input using isNaN and Number.isInteger to ensure user enter a number
@@ -216,6 +218,15 @@ Add code to replace TODO's in 4-hours-to-minutes/index.js
   ```JavaScript
     let mins = minutes > 1 ? "minutes" : "minute"
   ```
+  **5-mini-app**  
+Write an app that meets requirements:
+ - uses if/else
+ - uses at least one operator +, -, *, /, %
+ - reads an arg from the command line and provides usage if not present or wrong type
+ - suggestions:
+    - convert Celsius temperature to Fahrenheit F =(C * 9/5) + 32.00
+    - convert Fahrenheit to Celsius C = (F - 32) *  5/9
+    - convert pennies to dollars, for example 136 pennies is $1.36
 
 **be sure to test all your apps**
 ## Turn in assignment
