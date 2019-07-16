@@ -1,4 +1,8 @@
 # WATS 3020 Node 1
+### **Walkthrough Video**
+[Node-1](https://www.youtube.com/watch?v=L7i4b6Zw5KE&t=4s)
+***
+
 * Variables and Variable Declaration
 * Data Types: number, string, boolean, Primitive types vs Object types
 * String functions: indexOf
