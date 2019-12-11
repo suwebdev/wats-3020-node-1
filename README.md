@@ -1,5 +1,14 @@
 # WATS 3020 Node 1
 
+This exercise has been developed to give you an opportunity to work with declaring and assigning variables along with creating simple conditional expressions. There are five separate sections, separated into separate folders:
+* `1-experiments`: small experiments that help demonstrate how different types of variables work in JavaScript.
+* `2-odd-even`: a basic program that takes a number as input and determines whether the number is even or odd.
+* `3-string-contains-hello`: a basic program that takes a string as input and reports whether the string contains the word `hello` in it.
+* `4-hours-to-minutes`: a basic program that takes a number (minutes) as input and converts the number to the correct number of hours and minutes.
+* `5-mini-app`: a custom mini-app that you will develop that is similar to the previous programs.
+
+This assignment uses the local module **getargs** to pull a single argument out of the command line for input and `console.log(<string>)` for all output.
+
 ## Topics covered by this Assignment
 
 * [Variables and Variable Declaration](./reference.md#Variable%20Declaration)
@@ -12,10 +21,6 @@
 * [Template Literals](./reference.md#Template%20Literals)
 
 Read more about these topics in the local file [reference.md](./reference.md).
-
-## Input/Output for this Code
-
-This assignment uses the local module **getargs** to pull a single argument out of the command line for input and `console.log(<string>)` for all output.
 
 ## Basic Requirements
 
@@ -30,7 +35,8 @@ In order to complete this project successfully, you will need to fulfill these r
   * Uses an if/then statement; and
   * Uses at least one operator (+, -, *, /, %)
 
-If you are having difficulty with any parts of this assignment, you can consult the [text walkthrough](./tutorial.md) for more specific guidance on each section. In the alternative, a video walkthrough of the assignment can be found here: **link**.
+## Guide & Tutorial
+For assistance in how to proceed with the specific components of the assignment, consult this [text tutorial](./tutorial.md) for more guidance. In the alternative, a video walkthrough of the assignment can be found here: **link**.
 
 ## Stretch Goals
 
