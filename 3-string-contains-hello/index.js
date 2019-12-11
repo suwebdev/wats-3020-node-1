@@ -1,16 +1,16 @@
 /*
-The user should run this from the root of the project using `node 1-odd-even/index.js <integer> and
-should see the word odd or even depending on the integer.  If an integer is not provide, the user should see
-a usage statement reminding them of the how to run this code.
+The user should run this from the root of the project using `node 1-odd-even/index.js <integer> and should see the word odd or even depending on the integer.  If an integer is not provide, the user should see a usage statement reminding them of the how to run this code.
 */
-// TODO import the getargs module
-let getargs = require("../modules/getargs/index.js")
 
+// get input using getargs
+let getargs = require("../modules/getargs/index.js")
 let input = getargs.getStringArg()
+
+/**** Do not modify anything above this line ****/
 
 // make sure that the user entered a string
 if (!input) {
-  //TODO add a usage statement and let the user know that if a string contains a space it must be quoted
+  //TODO use console.log to add a usage statement and let the user know that if a string contains a space it must be quoted
 } 
 
 // check to see if string contains hello
@@ -18,12 +18,12 @@ if (!input) {
 
 else {
   // TODO write a logical expression to test if the input contains a "hello"
-  if (){
-    // log using a template literal at what position the hello was found
-    console.log()
+  if () {
+    // use console.log and a template literal at what position the hello was found
   } else {
-    // log that the hello was not found
-    console.log()
+    // use console.log to indicate that the hello was not found
   }
 }
+
+// exit the program
 process.exit()
