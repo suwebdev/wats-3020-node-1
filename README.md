@@ -21,9 +21,9 @@ This assignment uses the local module **getargs** to pull a single argument out 
 
 In order to complete this project successfully, you will need to fulfill these requirements:
 * Go through `index.js` in the `1-experiments` folder, complete all of the TODOs, and observe the output.
-* Complete the conditional logic and console output statements in `index.js` in the `2-odd-even` folder such that the identifies whether a number input is even or odd and reports accordingly.
-* Complete the conditional logic and console output statements in `index.js` in the `3-string-contains-hello` folder such that it properly reports whether a string contains the `hello`.
-* Complete the conditional logic, variable declarations, and correct calculations in `index.js` in the `4-hours-to-minutes` folder such it properly converts a whole number of minutes into the correct number of hours and minutes.
+* Complete the conditional logic and console output statements in `index.js` in the `2-odd-even` folder such that the program identifies whether a number input is even or odd and reports accordingly.
+* Complete the conditional logic and console output statements in `index.js` in the `3-string-contains-hello` folder such that the program properly reports whether a string contains the `hello`.
+* Complete the conditional logic, variable declarations, and correct calculations in `index.js` in the `4-hours-to-minutes` folder such that the program properly converts a whole number of minutes into the correct number of hours and minutes.
 * Write a small JavaScript program in `index.js` in the `mini-app` folder that meets these requirements:
   * Reads an argument from the command line;
   * Provides a usage statement if the input is in not correct; 
