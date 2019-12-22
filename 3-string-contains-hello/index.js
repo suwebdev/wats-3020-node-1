@@ -8,7 +8,7 @@ let input = getargs.getStringArg()
 
 /**** Do not modify anything above this line ****/
 
-// make sure that the user entered a string
+// TODO make sure that the user entered a string
 if (!input) {
   //TODO use console.log to add a usage statement and let the user know that if a string contains a space it must be quoted
 } 
@@ -19,11 +19,8 @@ if (!input) {
 else {
   // TODO write a logical expression to test if the input contains a "hello"
   if () {
-    // use console.log and a template literal at what position the hello was found
+    // TODO use console.log and a template literal at what position the hello was found
   } else {
-    // use console.log to indicate that the hello was not found
+    // TODO use console.log to indicate that the hello was not found
   }
 }
-
-// exit the program
-process.exit()

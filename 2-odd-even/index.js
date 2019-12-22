@@ -21,6 +21,3 @@ if () {
     //TODO use console.log with a template literal to report that the number is odd
   }
 }
-
-// exit the program
-process.exit()

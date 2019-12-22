@@ -36,7 +36,7 @@ In order to complete this project successfully, you will need to fulfill these r
   * Uses at least one operator (+, -, *, /, %)
 
 ## Guide & Tutorial
-For assistance in how to proceed with the specific components of the assignment, consult this [text tutorial](./tutorial.md) for more guidance. In the alternative, a video walkthrough of the assignment can be found here: **link**.
+For assistance in how to proceed with the specific components of the assignment, consult this [text tutorial](./tutorials.md) for more guidance. In the alternative, a video walkthrough of the assignment can be found here: **link**.
 
 ## Stretch Goals
 

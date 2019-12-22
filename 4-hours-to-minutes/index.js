@@ -19,5 +19,3 @@ if () {
   // TODO: create a variable named mins and use a ternary expression to determine whether there are singular ot plural minutes
   console.log(`${input} minutes is ${hours} ${hrs} ${minutes} ${mins} `)
 }
-
-process.exit()
