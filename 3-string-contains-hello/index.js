@@ -9,7 +9,7 @@ let input = getargs.getStringArg()
 /**** Do not modify anything above this line ****/
 
 // TODO make sure that the user entered a string
-if (!input) {
+if () {
   //TODO use console.log to add a usage statement and let the user know that if a string contains a space it must be quoted
 } 
 
