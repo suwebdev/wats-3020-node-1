@@ -36,7 +36,12 @@ In order to complete this project successfully, you will need to fulfill these r
   * Uses at least one operator (+, -, *, /, %)
 
 ## Guide & Tutorial
-For assistance in how to proceed with the specific components of the assignment, consult this [text tutorial](./tutorials.md) for more guidance. In the alternative, a video walkthrough of the assignment can be found [here](https://youtu.be/Fclm_KgSig8). Timestamps for the various parts of the assignment can be found in the video description on YouTube.
+For assistance in how to proceed with the specific components of the assignment, consult this [text tutorial](./tutorials.md) for more guidance. In the alternative, a video walkthrough of the assignment can be found [here](https://youtu.be/Fclm_KgSig8). Timestamps for specific parts of the assignment (with associated links) are as follows:
+* [3:05 - Part 1 of 5, `1-experiments`](https://youtu.be/Fclm_KgSig8?t=186)
+* [21:20 - Part 2 of 5, `2-odd-even`](https://youtu.be/Fclm_KgSig8?t=1280)
+* [32:06 - Part 3 of 5, `3-string-contains-hello`](https://youtu.be/Fclm_KgSig8?t=1926)
+* [39:18 - Part 4 of 5, `4-hours-to-minutes`](https://youtu.be/Fclm_KgSig8?t=2358)
+* [46:13 - Part 5 of 5, `5-mini-app`](https://youtu.be/Fclm_KgSig8?t=2773)
 
 ## Stretch Goals
 
